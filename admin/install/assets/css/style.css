@@ -1,0 +1,41 @@
+body {
+    min-height:100%;
+    background:#fff none;
+    color:#424242;
+}
+
+/** HEADER **/
+#header {
+    background:#282f36 none;
+    text-align:center;
+    padding:15px 0px;
+    margin:0;
+    height:110px;
+    border:0;
+    border-bottom:1px solid #B79952;
+}
+
+/** FOOTER **/
+#footer {
+    z-index: 1030;
+    position:fixed;
+    bottom:0;
+    right:0;
+    width: 100%;
+    height:30px;
+    line-height:30px;
+    text-align:center;
+    background:#282f36 none;
+    color:#b79952;
+    font-size:12px;
+    border:0;
+    border-top:1px solid #B79952;
+}
+#footer a {
+    color:#b79952;
+}
+
+/** WRAPPER **/
+#wrapper {
+    padding:150px 0px 70px 0px;
+}
